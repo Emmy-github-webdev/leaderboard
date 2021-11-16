@@ -8,11 +8,14 @@
   <title>Leaderboard</title>
 <script defer src="index.bundle.js"></script></head>
 <body>
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
   <div class="container">
     <section class="leaderboard-items">
       <div class="leaderboard-item-header">
-        <h1>Recent Scores</h1>
-        <span>Refresh</span>
+        <h2>Recent Scores</h2>
+        <div class="refresh"><button>Refresh</button></div>
       </div>
       <table class="leaderboard-item-content">
         <thead>
@@ -60,14 +63,15 @@
           <label for="score"></label>
           <input type="text" id="score" class="score form-control border" placeholder="Your score">
         </div>
-        <div class="form-group">
+        <div class="submit-button">
           <input type="submit" value="Submit" class="btn btn-primary border">
         </div>
       </form>
     </section>
   </div>
-
-
+  <footer>
+    <p>&copy; 2021 copyright. Emmanuel</p>
+  </footer>
   <script src="./src/index.js"></script>
 </body>
 </html>
