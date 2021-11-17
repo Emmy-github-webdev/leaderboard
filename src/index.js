@@ -1,14 +1,18 @@
 /* eslint-disable import/no-cycle */
 import './css/styles.css';
-import _ from 'lodash';
+import leaderboardItems from './getItems.js';
 
-function component() {
-  const element = document.createElement('div');
+const getLeaderboardItem = () => {
+  leaderboardItems.forEach((leaderboardItem) => {
+    const list = document.getElementById('leaderboard-list');
+    const listLi = document.createElement('tr');
+    listLi.innerHTML = `
+     <td>${leaderboardItem.name}:</td>
+     <td>${leaderboardItem.score}</td>
+    `;
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join([''], ' ');
+    list.appendChild(listLi);
+  });
+};
 
-  return element;
-}
-
-document.body.appendChild(component());
+getLeaderboardItem();
