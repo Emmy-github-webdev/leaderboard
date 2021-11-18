@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  margin: 0 8%;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: auto;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.refresh {\r\n  padding: 3px 37px;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ddd;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.leaderboard-form h2 {\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #ddd;\r\n  justify-content: center;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 3vh;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,UAAU;EACV,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,8BAA8B;EAC9B,yBAAyB;EACzB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,gBAAgB;EAChB,YAAY;AACd;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,aAAa;EACb,qBAAqB;EACrB,sBAAsB;EACtB,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,uBAAuB;EACvB,eAAe;EACf,YAAY;AACd;;AAEA;EACE;IACE,aAAa;IACb,8BAA8B;IAC9B,OAAO;EACT;AACF","sourcesContent":["* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  margin: 0 8%;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: auto;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.refresh {\r\n  padding: 3px 37px;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ddd;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.leaderboard-form h2 {\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #ddd;\r\n  justify-content: center;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 3vh;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background: #d06224;\r\n}\r\n\r\nheader {\r\n  background: #000;\r\n  display: flex;\r\n  font-size: 20px;\r\n  height: 75px;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n  padding: 1% 8%;\r\n  color: #ddd;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: 100%;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.leaderboard-item-header h2 {\r\n  color: #ddd;\r\n  font-weight: bold;\r\n  font-size: 30px;\r\n}\r\n\r\n.refresh {\r\n  margin-left: 45%;\r\n}\r\n\r\n.refresh button {\r\n  padding: 5px 10px;\r\n  font-size: 16px;\r\n  color: #000;\r\n  border: 1px solid #ddd;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 0.1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n  color: #fff;\r\n}\r\n\r\ntr:nth-child(odd) {\r\n  background-color: #983c1b;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ae441f;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.create-leaderboard h2 {\r\n  text-align: center;\r\n  color: #ddd;\r\n  font-weight: bold;\r\n  font-size: 30px;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n  padding: 5px 10px;\r\n  font-size: 16px;\r\n  color: #000;\r\n  border: 1px solid #ddd;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #000;\r\n  justify-content: center;\r\n  margin-top: 20%;\r\n  bottom: 0;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 2vh 0;\r\n  color: #ddd;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,eAAe;EACf,YAAY;AACd;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,kBAAkB;EAClB,cAAc;EACd,WAAW;AACb;;AAEA;EACE,UAAU;EACV,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,WAAW;EACX,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,WAAW;EACX,sBAAsB;AACxB;;AAEA;EACE,8BAA8B;EAC9B,yBAAyB;EACzB,WAAW;AACb;;AAEA;EACE,wBAAwB;EACxB,gBAAgB;EAChB,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,aAAa;EACb,qBAAqB;EACrB,sBAAsB;EACtB,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,WAAW;EACX,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,uBAAuB;EACvB,eAAe;EACf,SAAS;AACX;;AAEA;EACE,uBAAuB;EACvB,eAAe;EACf,cAAc;EACd,WAAW;AACb;;AAEA;EACE;IACE,aAAa;IACb,8BAA8B;IAC9B,OAAO;EACT;AACF","sourcesContent":["* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background: #d06224;\r\n}\r\n\r\nheader {\r\n  background: #000;\r\n  display: flex;\r\n  font-size: 20px;\r\n  height: 75px;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n  padding: 1% 8%;\r\n  color: #ddd;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: 100%;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.leaderboard-item-header h2 {\r\n  color: #ddd;\r\n  font-weight: bold;\r\n  font-size: 30px;\r\n}\r\n\r\n.refresh {\r\n  margin-left: 45%;\r\n}\r\n\r\n.refresh button {\r\n  padding: 5px 10px;\r\n  font-size: 16px;\r\n  color: #000;\r\n  border: 1px solid #ddd;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 0.1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n  color: #fff;\r\n}\r\n\r\ntr:nth-child(odd) {\r\n  background-color: #983c1b;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ae441f;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.create-leaderboard h2 {\r\n  text-align: center;\r\n  color: #ddd;\r\n  font-weight: bold;\r\n  font-size: 30px;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n  padding: 5px 10px;\r\n  font-size: 16px;\r\n  color: #000;\r\n  border: 1px solid #ddd;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #000;\r\n  justify-content: center;\r\n  margin-top: 20%;\r\n  bottom: 0;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 2vh 0;\r\n  color: #ddd;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -530,6 +530,47 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/addItem.js":
+/*!************************!*\
+  !*** ./src/addItem.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const addLeaderboardItems = async () => {
+  const score = document.getElementById('scoreInput');
+  const name = document.getElementById('nameInput');
+  const error = document.getElementById('ErrorMessage');
+
+  if (name.value.length && score.value.length) {
+    try {
+      await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gKX6ORGkPPBMcNp9S7oe/scores', {
+        method: 'POST',
+        body: JSON.stringify({
+          user: name.value,
+          score: score.value,
+        }),
+        headers: {
+          'Content-Type': 'application/json; charset=UTF-8',
+        },
+      });
+      score.value = '';
+      name.value = '';
+    } catch (err) {
+      console.error(err);
+    }
+  } else {
+    error.style.display = 'block';
+  }
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addLeaderboardItems);
+
+/***/ }),
+
 /***/ "./src/getItems.js":
 /*!*************************!*\
   !*** ./src/getItems.js ***!
@@ -538,41 +579,8 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "addLeaderboardItems": () => (/* binding */ addLeaderboardItems),
-/* harmony export */   "getLeaderboardItems": () => (/* binding */ getLeaderboardItems)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const addLeaderboardItems = async () => {
-
-  const name = document.getElementById('inputName');
-  const score = document.getElementById('inputScore');
-
-  if (name.value.length && score.value.length) {
-    try {
-      await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gKX6ORGkPPBMcNp9S7oe/scores', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          user: name.value,
-          score: score.value,
-        }),
-      });
-      console.log(user);
-      //empty the form fileds after submit
-      name.value = '';
-      score.value = '';
-    } catch (err) {
-      console.log('The fileds are required');
-    }
-  } else {
-    console.error('Try again!');
-  }
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addLeaderboardItems);
-
 const getLeaderboardItems = async () => {
   let leaderboardItems;
 
@@ -584,11 +592,11 @@ const getLeaderboardItems = async () => {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-      }
-    }) ;
+      },
+    });
     leaderboardItems = await leaderboardURL.json();
   } catch (err) {
-    console.log('No result found')
+    console.log('No result found');
   }
 
   if (leaderboardItems.result.length) {
@@ -598,13 +606,12 @@ const getLeaderboardItems = async () => {
       <td>${item.score}</td>
       `;
     });
+  } else {
+    list.innerHTML += '<h4>No result found</h4>';
   }
-  else {
-    list.innerHTML += "<h4>No result found</h4>"
-  }
-}
+};
 
-
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getLeaderboardItems);
 
 /***/ })
 
@@ -685,17 +692,19 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/styles.css */ "./src/css/styles.css");
 /* harmony import */ var _getItems_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getItems.js */ "./src/getItems.js");
+/* harmony import */ var _addItem_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./addItem.js */ "./src/addItem.js");
+
 
 
 
 window.onload = async () => {
-  const submitItem = document.getElementById('submitLeaderboard');
+  const submitItem = document.getElementById('submitButton');
   const refreshItem = document.getElementById('refresh');
-  
-  (0,_getItems_js__WEBPACK_IMPORTED_MODULE_1__.getLeaderboardItems)();
 
-  submitItem.addEventListener('submit', _getItems_js__WEBPACK_IMPORTED_MODULE_1__.addLeaderboardItems);
-  refreshItem.addEventListener('click', _getItems_js__WEBPACK_IMPORTED_MODULE_1__.getLeaderboardItems);
+  (0,_getItems_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
+
+  submitItem.addEventListener('click', _addItem_js__WEBPACK_IMPORTED_MODULE_2__["default"]);
+  refreshItem.addEventListener('click', _getItems_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
 };
 
 })();

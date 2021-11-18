@@ -4,20 +4,29 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #d06224;
+}
+
 header {
-  margin: 0 8%;
+  background: #000;
+  display: flex;
+  font-size: 20px;
+  height: 75px;
 }
 
 header h1 {
   font-weight: bold;
   font-size: 35px;
   font-style: normal;
+  padding: 1% 8%;
+  color: #ddd;
 }
 
 .container {
   margin: 8%;
   justify-content: center;
-  height: 65vh;
+  height: 100%;
 }
 
 .leaderboard-item-header {
@@ -26,8 +35,21 @@ header h1 {
   margin-bottom: 3vh;
 }
 
+.leaderboard-item-header h2 {
+  color: #ddd;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .refresh {
-  padding: 3px 37px;
+  margin-left: 45%;
+}
+
+.refresh button {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #000;
+  border: 1px solid #ddd;
 }
 
 table {
@@ -37,24 +59,33 @@ table {
 }
 
 td {
-  border: 1px solid #ddd;
+  border: 0.1px solid #ddd;
   text-align: left;
   padding: 8px;
+  color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #983c1b;
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: #ae441f;
 }
 
 .leaderboard-form {
   margin-top: 2vh;
 }
 
-.leaderboard-form h2 {
+.create-leaderboard h2 {
   text-align: center;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.form-control {
+#scoreInput,
+#nameInput {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -62,28 +93,30 @@ tr:nth-child(even) {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-}
-
-.form-group {
-  display: flex;
-  justify-content: center;
   margin-bottom: 3vh;
 }
 
-.submit-button {
+#submitButton {
   float: right;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #000;
+  border: 1px solid #ddd;
 }
 
 footer {
   display: flex;
-  background: #ddd;
+  background: #000;
   justify-content: center;
+  margin-top: 20%;
+  bottom: 0;
 }
 
 footer p {
   justify-content: center;
   font-size: 20px;
-  padding: 3vh;
+  padding: 2vh 0;
+  color: #ddd;
 }
 
 @media only screen and (min-width: 768px) {
