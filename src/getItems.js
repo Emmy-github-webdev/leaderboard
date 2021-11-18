@@ -5,15 +5,15 @@ const getLeaderboardItems = async () => {
   list.innerHTML = '';
 
   try {
-    const leaderboardURL = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores', {
+    const leaderboardURL = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gKX6ORGkPPBMcNp9S7oe/scores', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-      }
-    }) ;
+      },
+    });
     leaderboardItems = await leaderboardURL.json();
   } catch (err) {
-    console.log('No result found')
+    console.log('No result found');
   }
 
   if (leaderboardItems.result.length) {
@@ -23,10 +23,9 @@ const getLeaderboardItems = async () => {
       <td>${item.score}</td>
       `;
     });
+  } else {
+    list.innerHTML += '<h4>No result found</h4>';
   }
-  else {
-    list.innerHTML += "<h4>No result found</h4>"
-  }
-}
+};
 
 export default getLeaderboardItems;

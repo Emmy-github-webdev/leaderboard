@@ -31,17 +31,18 @@
     </section>
     <section class="create-leaderboard">
       <h2>Add your score</h2>
+      <span id="message"></span>
       <form class="leaderboard-form">
         <div class="form-group">
           <label for="name"></label>
-          <input type="text" id="name" class="name form-control border"  placeholder="Your name">
+          <input type="text" id="inputName" class="name form-control border"  placeholder="Your name" required>
         </div>
         <div class="form-group">
           <label for="score"></label>
-          <input type="text" id="score" class="score form-control border" placeholder="Your score">
+          <input type="number" id="inputScore" class="score form-control border" placeholder="Your score" required>
         </div>
         <div class="submit-button">
-          <input type="submit" value="Submit" class="btn btn-primary border">
+          <input type="submit" value="Submit" id="submitLeaderboard" class="btn btn-primary border">
         </div>
       </form>
     </section>

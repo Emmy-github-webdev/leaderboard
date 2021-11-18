@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  margin: 0 8%;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: 70vh;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.refresh {\r\n  padding: 3px 37px;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ddd;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.leaderboard-form h2 {\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #ddd;\r\n  justify-content: center;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 3vh;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,UAAU;EACV,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,8BAA8B;EAC9B,yBAAyB;EACzB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,gBAAgB;EAChB,YAAY;AACd;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,aAAa;EACb,qBAAqB;EACrB,sBAAsB;EACtB,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,uBAAuB;EACvB,eAAe;EACf,YAAY;AACd;;AAEA;EACE;IACE,aAAa;IACb,8BAA8B;IAC9B,OAAO;EACT;AACF","sourcesContent":["* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  margin: 0 8%;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: 70vh;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.refresh {\r\n  padding: 3px 37px;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ddd;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.leaderboard-form h2 {\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #ddd;\r\n  justify-content: center;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 3vh;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  margin: 0 8%;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: auto;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.refresh {\r\n  padding: 3px 37px;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ddd;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.leaderboard-form h2 {\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #ddd;\r\n  justify-content: center;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 3vh;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,UAAU;EACV,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,8BAA8B;EAC9B,yBAAyB;EACzB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,gBAAgB;EAChB,YAAY;AACd;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,aAAa;EACb,qBAAqB;EACrB,sBAAsB;EACtB,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,uBAAuB;EACvB,eAAe;EACf,YAAY;AACd;;AAEA;EACE;IACE,aAAa;IACb,8BAA8B;IAC9B,OAAO;EACT;AACF","sourcesContent":["* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nheader {\r\n  margin: 0 8%;\r\n}\r\n\r\nheader h1 {\r\n  font-weight: bold;\r\n  font-size: 35px;\r\n  font-style: normal;\r\n}\r\n\r\n.container {\r\n  margin: 8%;\r\n  justify-content: center;\r\n  height: auto;\r\n}\r\n\r\n.leaderboard-item-header {\r\n  display: flex;\r\n  flex-direction: row;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.refresh {\r\n  padding: 3px 37px;\r\n}\r\n\r\ntable {\r\n  font-family: arial, sans-serif;\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd {\r\n  border: 1px solid #ddd;\r\n  text-align: left;\r\n  padding: 8px;\r\n}\r\n\r\ntr:nth-child(even) {\r\n  background-color: #ddd;\r\n}\r\n\r\n.leaderboard-form {\r\n  margin-top: 2vh;\r\n}\r\n\r\n.leaderboard-form h2 {\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  width: 100%;\r\n  padding: 12px 20px;\r\n  margin: 8px 0;\r\n  display: inline-block;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.form-group {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 3vh;\r\n}\r\n\r\n.submit-button {\r\n  float: right;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  background: #ddd;\r\n  justify-content: center;\r\n}\r\n\r\nfooter p {\r\n  justify-content: center;\r\n  font-size: 20px;\r\n  padding: 3vh;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n  .container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 8%;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -538,8 +538,41 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "addLeaderboardItems": () => (/* binding */ addLeaderboardItems),
+/* harmony export */   "getLeaderboardItems": () => (/* binding */ getLeaderboardItems)
 /* harmony export */ });
+const addLeaderboardItems = async () => {
+
+  const name = document.getElementById('inputName');
+  const score = document.getElementById('inputScore');
+
+  if (name.value.length && score.value.length) {
+    try {
+      await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gKX6ORGkPPBMcNp9S7oe/scores', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          user: name.value,
+          score: score.value,
+        }),
+      });
+      console.log(user);
+      //empty the form fileds after submit
+      name.value = '';
+      score.value = '';
+    } catch (err) {
+      console.log('The fileds are required');
+    }
+  } else {
+    console.error('Try again!');
+  }
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addLeaderboardItems);
+
 const getLeaderboardItems = async () => {
   let leaderboardItems;
 
@@ -547,7 +580,7 @@ const getLeaderboardItems = async () => {
   list.innerHTML = '';
 
   try {
-    const leaderboardURL = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores', {
+    const leaderboardURL = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gKX6ORGkPPBMcNp9S7oe/scores', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -571,7 +604,7 @@ const getLeaderboardItems = async () => {
   }
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getLeaderboardItems);
+
 
 /***/ })
 
@@ -656,10 +689,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 window.onload = async () => {
+  const submitItem = document.getElementById('submitLeaderboard');
   const refreshItem = document.getElementById('refresh');
-  (0,_getItems_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  
+  (0,_getItems_js__WEBPACK_IMPORTED_MODULE_1__.getLeaderboardItems)();
 
-  refreshItem.addEventListener('click', _getItems_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
+  submitItem.addEventListener('submit', _getItems_js__WEBPACK_IMPORTED_MODULE_1__.addLeaderboardItems);
+  refreshItem.addEventListener('click', _getItems_js__WEBPACK_IMPORTED_MODULE_1__.getLeaderboardItems);
 };
 
 })();

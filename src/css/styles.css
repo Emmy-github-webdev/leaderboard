@@ -17,7 +17,7 @@ header h1 {
 .container {
   margin: 8%;
   justify-content: center;
-  height: auto;
+  height: 65vh;
 }
 
 .leaderboard-item-header {
