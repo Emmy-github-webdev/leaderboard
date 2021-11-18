@@ -1,34 +1,31 @@
-const leaderboardItems = [
-  {
-    id: 1,
-    name: 'Man City',
-    score: '9',
-  },
-  {
-    id: 2,
-    name: 'PSG',
-    score: '8',
-  },
-  {
-    id: 3,
-    name: 'Liverpool',
-    score: '12',
-  },
-  {
-    id: 4,
-    name: 'Real Madrid',
-    score: '9',
-  },
-  {
-    id: 5,
-    name: 'Inter',
-    score: '7',
-  },
-  {
-    id: 6,
-    name: 'Man United',
-    score: '7',
-  },
-];
+const getLeaderboardItems = async () => {
+  let leaderboardItems;
 
-export default leaderboardItems;
+  const list = document.getElementById('leaderboard-list');
+  list.innerHTML = '';
+
+  try {
+    const leaderboardURL = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gKX6ORGkPPBMcNp9S7oe/scores', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    leaderboardItems = await leaderboardURL.json();
+  } catch (err) {
+    console.log('No result found');
+  }
+
+  if (leaderboardItems.result.length) {
+    leaderboardItems.result.forEach((item) => {
+      list.innerHTML += `
+      <td>${item.user}:</td>
+      <td>${item.score}</td>
+      `;
+    });
+  } else {
+    list.innerHTML += '<h4>No result found</h4>';
+  }
+};
+
+export default getLeaderboardItems;
