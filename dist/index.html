@@ -15,7 +15,7 @@
     <section class="leaderboard-items">
       <div class="leaderboard-item-header">
         <h2>Recent Scores</h2>
-        <div class="refresh"><button id="refresh">Refresh</button></div>
+        <div class="refresh"><button type="button" id="refresh">Refresh</button></div>
       </div>
       <table class="leaderboard-item-content">
         <thead>
@@ -32,18 +32,15 @@
     <section class="create-leaderboard">
       <h2>Add your score</h2>
       <span id="message"></span>
-      <form class="leaderboard-form">
+      <form class="form-class" method="post">
         <div class="form-group">
-          <label for="name"></label>
-          <input type="text" id="inputName" class="name form-control border"  placeholder="Your name" required>
+          <input  id="nameInput" class="form-control" required placeholder="Your name">
         </div>
         <div class="form-group">
-          <label for="score"></label>
-          <input type="number" id="inputScore" class="score form-control border" placeholder="Your score" required>
+          <input type="number" id="scoreInput" class="form-control" required placeholder="Your score">
         </div>
-        <div class="submit-button">
-          <input type="submit" value="Submit" id="submitLeaderboard" class="btn btn-primary border">
-        </div>
+        <button type="submit" id="submitButton" class="submit-button">Submit </button>
+        <h6 class="ErrorMessage" id="ErrorMessage"></h6>
       </form>
     </section>
   </div>
